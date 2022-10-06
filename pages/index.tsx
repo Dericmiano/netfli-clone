@@ -39,7 +39,8 @@ const Home = ({
 
   return (
     // <div className="flex min-h-screen flex-col items-center justify-center py-2">
-    <div className="relative h-screen bg-gradient-to-b lg:h-[140vh] ">
+    <div className={`relative h-screen bg-gradient-to-b lg:h-[140vh]
+     ${showModel && '1h-screen overflow-hidden'}`}>
 
       <Head>
 
